@@ -1,0 +1,62 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+  
+    --pink:#e83e8c;
+    --white: #fff;
+    --info:#17a2b8;
+    --oscuro: rgb(36, 35, 35) ;
+}
+
+
+
+.fondomenu{
+    background-color: var(--oscuro);
+    color:var(--white);
+}
+
+.titulomenu{
+font-style: oblique;
+font-size: 40px;
+letter-spacing: 0.1em;
+font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subcripcion{
+background-color: rgb(255, 0, 76);
+color: var(--white);
+height: 200px;
+font-weight: bold;
+}
+
+
+
+
+
+
+.pieconfig{
+    background-color: var(--oscuro);
+    color:var(--white);
+    width: 100%;
+    padding: 10px;
+  
+}
