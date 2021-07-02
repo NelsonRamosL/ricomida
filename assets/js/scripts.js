@@ -30,10 +30,13 @@ $(function () {
     });
 
 
-
-$(".targetatarget").click(function () {
-    $(this).parent().parent().toggle();
-        console.log("toggle targeta seleccionada");
+    
+// $(".targetatarget").click(function () {
+    $(".targetatarget").on( "click", function() {
+    
+    $('.targetatarget').parent().children('p').toggle();
+    
+        console.log("toggle targeta contenido");
     });
 
     
