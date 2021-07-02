@@ -3,6 +3,13 @@
 
 $(function () {
 
+
+    $('.carousel').carousel({
+        interval: 2000
+        
+      })
+
+
     $('[data-toggle="tooltip"]').tooltip();
     console.log("en el toggle");
 

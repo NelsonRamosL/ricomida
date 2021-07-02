@@ -44,11 +44,12 @@ font-weight: bold;
 .subcripcion{
 background-color: rgb(255, 0, 76);
 color: var(--white);
-height: 200px;
+height: 400px;
+display:flex;
+    justify-content: center;
+    align-items: center;
 font-weight: bold;
 }
-
-
 
 
 
